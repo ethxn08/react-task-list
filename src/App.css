@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(58, 58, 58);
+}
+.taskContainer{
+  background-color: aliceblue;
+  width: 500px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.taskCreateForm{
+  display: flex;
+  gap: 5px;
+}
+
+.taskInput{
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px grey;
+}
+
+.taskButton{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #282c34;
+  background-color: rgb(146, 146, 224);
+}
+.taskEdit{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #282c34;
+  background-color: rgb(146, 224, 194);
+}
+.taskDelete{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #282c34;
+  background-color: rgb(224, 146, 172);
+}
+.taskResponse{
+  display: flex;
+  flex-direction: column;
+}
+.taskPanel{
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  gap: 10px;
+}
+.taskUpdateForm{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+}
